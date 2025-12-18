@@ -7,7 +7,7 @@ public class Cliente {
     public static void main(String[] args) {
         try {
             DatagramSocket socket = new DatagramSocket();
-            InetAddress ipServidor = InetAddress.getByName("localhost");
+            InetAddress ipServidor = InetAddress.getByName("54.82.79.217");
 
             Scanner sc = new Scanner(System.in);
             System.out.print("Introduce un número: ");
